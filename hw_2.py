@@ -206,7 +206,7 @@ async def send_contact(message: types.Message):
 async def back(message:types.Message):
     await start(message)
 
-# executor.start_polling(dp)
+executor.start_polling(dp)
 
 
 
